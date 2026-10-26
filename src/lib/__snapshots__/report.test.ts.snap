@@ -1,0 +1,88 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`buildClaudeReport > matches the snapshot for a 3-week fixture 1`] = `
+"# Cut Tracker report: 26/10/2026 to 15/11/2026
+
+- Goal: cut, end date 18/12/2026, 33 days remaining (as of 15/11/2026)
+- Profile: male, 24 y, 181 cm, start 88.3 kg on 26/10/2026
+- Targets: 2000 kcal, protein 200 g, carbs 170 g, fat 60 g, 12000 steps, loss 0.8–1.0 kg/week
+- Weight: 7-day avg 86.3 kg at 15/11/2026 (-2.0 kg vs start); 14-day trend -0.45 kg/week; projected 83.9 kg on 18/12/2026
+- Notes on method: averages use only days with data; adherence = kcal within ±100 of target, protein ≥ target, scheduled workout done, steps ≥ target; est. 1RM = Epley.
+
+## Weekly summary
+
+| Week | Dates | Avg wt kg | Δ kg | Δ % | kcal | P g | C g | F g | Steps | Workouts | Cardio min | Adherence % |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-W44 | 26/10–01/11 | 87.8 | — | — | 2084 | 205 | 186 | 43 | 11828 | 6/6 | 95 | 70 |
+| 2026-W45 | 02/11–08/11 | 86.6 | -1.20 | -1.37 | 2097 | 210 | 186 | 43 | 12214 | 5/6 | 75 | 67 |
+| 2026-W46 | 09/11–15/11 | 86.3 | -0.30 | -0.35 | 2096 | 205 | 186 | 43 | 12334 | 6/6 | 100 | 70 |
+
+## Daily
+
+| Date | Wt kg | kcal | P | C | F | Steps | Workout | Cardio min | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| Mon 26/10 | 88.3 | 2050 | 210 | 186 | 43 | 10500 | Push | 20 |  |
+| Tue 27/10 | 88.4 | 2090 | 210 | 186 | 43 | 11231 | Pull | — |  |
+| Wed 28/10 | 87.8 | 2130 | 210 | 186 | 43 | 11962 | Legs | 25 | Slept badly / 5 h |
+| Thu 29/10 | 87.9 | 2050 | 175 | 186 | 43 | 12693 | Push | — |  |
+| Fri 30/10 | 87.5 | 2090 | 210 | 186 | 43 | — | Pull | 30 |  |
+| Sat 31/10 | 87.7 | 2130 | 210 | 186 | 43 | 13424 | Legs | — |  |
+| Sun 01/11 | 87.0 | 2050 | 210 | 186 | 43 | 11155 | rest | 20 |  |
+| Mon 02/11 | 87.1 | 2090 | 210 | 186 | 43 | 11886 | Push | — |  |
+| Tue 03/11 | 87.2 | 2130 | 210 | 186 | 43 | 12617 | Pull | 25 |  |
+| Wed 04/11 | — | 2050 | 210 | 186 | 43 | — | Legs | — |  |
+| Thu 05/11 | 86.7 | 2090 | 210 | 186 | 43 | 13348 | Push | 30 |  |
+| Fri 06/11 | 86.3 | 2130 | 210 | 186 | 43 | 11079 | rest | — |  |
+| Sat 07/11 | 86.5 | — | — | — | — | 11810 | Legs | 20 | Wedding; late dinner |
+| Sun 08/11 | 85.8 | 2090 | 210 | 186 | 43 | 12541 | rest | — |  |
+| Mon 09/11 | 86.3 | 2130 | 210 | 186 | 43 | — | Push | 25 |  |
+| Tue 10/11 | 86.6 | 2050 | 210 | 186 | 43 | 13272 | Pull | — |  |
+| Wed 11/11 | 86.1 | 2090 | 210 | 186 | 43 | 11003 | Legs | 30 |  |
+| Thu 12/11 | 86.4 | 2130 | 175 | 186 | 43 | 11734 | Push | — |  |
+| Fri 13/11 | 86.2 | 2050 | 210 | 186 | 43 | 12465 | Pull | 20 |  |
+| Sat 14/11 | 86.5 | 2090 | 210 | 186 | 43 | — | Legs | — |  |
+| Sun 15/11 | 86.0 | 2130 | 210 | 186 | 43 | 13196 | rest | 25 |  |
+
+## Strength (best set and est. 1RM, start vs end of range)
+
+| Exercise | Start best set | Start e1RM kg | End best set | End e1RM kg | Δ % |
+|---|---|---|---|---|---|
+| Bench press | 40.0×8 (26/10) | 50.7 | 45.0×8 (12/11) | 57.0 | +12.5 |
+| Shoulder press | 50.0×8 (26/10) | 63.3 | 55.0×8 (12/11) | 69.7 | +10.0 |
+| Incline DB press | 60.0×8 (26/10) | 76.0 | 65.0×8 (12/11) | 82.3 | +8.3 |
+| Machine flyes | 70.0×8 (26/10) | 88.7 | 75.0×8 (12/11) | 95.0 | +7.1 |
+| Rope tricep pushdown | 80.0×8 (26/10) | 101.3 | 85.0×8 (12/11) | 107.7 | +6.2 |
+| Lat pulldown | 40.0×8 (27/10) | 50.7 | 45.0×8 (13/11) | 57.0 | +12.5 |
+| Seated row | 50.0×8 (27/10) | 63.3 | 55.0×8 (13/11) | 69.7 | +10.0 |
+| Chest-supported row | 60.0×8 (27/10) | 76.0 | 65.0×8 (13/11) | 82.3 | +8.3 |
+| Rear delt fly | 70.0×8 (27/10) | 88.7 | 75.0×8 (13/11) | 95.0 | +7.1 |
+| Curls | 80.0×8 (27/10) | 101.3 | 85.0×8 (13/11) | 107.7 | +6.2 |
+| Hip thrust | 40.0×8 (28/10) | 50.7 | 45.0×8 (14/11) | 57.0 | +12.5 |
+| Leg extension | 50.0×8 (28/10) | 63.3 | 55.0×8 (14/11) | 69.7 | +10.0 |
+| Lying leg curl | 60.0×8 (28/10) | 76.0 | 65.0×8 (14/11) | 82.3 | +8.3 |
+| Leg press | 70.0×8 (28/10) | 88.7 | 60.0×8 (14/11) | 76.0 | -14.3 |
+| Adductor | 80.0×8 (28/10) | 101.3 | 85.0×8 (14/11) | 107.7 | +6.2 |
+
+## Latest body scan vs baseline
+
+| Field | Baseline 26/10/2026 (Evolt 360) | Latest 09/11/2026 (Evolt 360) | Δ |
+|---|---|---|---|
+| Weight (kg) | 88.3 | 86.5 | -1.8 |
+| Body fat (%) | 23.8 | 22.6 | -1.2 |
+| Fat mass (kg) | 21 | 19.5 | -1.5 |
+| Lean mass (kg) | 67.3 | 67 | -0.3 |
+| Skeletal muscle (kg) | 37.3 | 37.1 | -0.2 |
+| Visceral fat level | 8 | 7 | -1.0 |
+| Abdominal circumference (cm) | 94.3 | 92 | -2.3 |
+| Waist (cm) | — | 88.5 | — |
+| BMR (kcal) | 1823 | 1810 | -13.0 |
+
+## Flags
+
+- Weeks with loss below 0.5% of bodyweight: 2026-W46 (-0.35%)
+- Weeks with loss above 1.25% of bodyweight: 2026-W45 (-1.37%)
+- Days with protein < 180 g: 29/10 (175 g), 12/11 (175 g)
+- Days with no food logged: 07/11
+- Exercises down >5% est. 1RM vs best this cut: Leg press (-17.2%: 76.0 kg on 14/11 vs best 91.8 kg on 04/11)
+"
+`;

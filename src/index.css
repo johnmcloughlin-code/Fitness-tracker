@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #0b0f14;
+  --color-card: #141b24;
+  --color-card2: #1c2531;
+  --color-line: #2a3542;
+  --color-muted: #8b98a8;
+  --color-accent: #4ade80;
+  --color-accent-ink: #052e16;
+  --color-warn: #fbbf24;
+  --color-bad: #f87171;
+}
+
+html,
+body {
+  background: var(--color-bg);
+  color: #e6edf3;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 16px inputs stop iOS Safari zooming on focus. In the base layer so utilities can still override. */
+@layer base {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top), 0.75rem);
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
